@@ -1,4 +1,4 @@
-from mock_data import mock_input
+from mock_data.mock_data import mock_input
 
 
 def extract_keywords():

@@ -1,6 +1,6 @@
 import unittest
 
-from keyword_extractor import extract_keywords
+from helper_functions.keyword_extractor import extract_keywords
 
 
 class TestExtractKeywords(unittest.TestCase):
