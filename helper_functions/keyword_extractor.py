@@ -1,6 +1,7 @@
-from mock_data import mock_input
+from mock_data.mock_data import mock_input
 
 
+# This is the basic structure of how we can extract keywords from a serializable JSON response
 def extract_keywords():
     data = mock_input["entry_1"]["data"]
     data_dict = {}
