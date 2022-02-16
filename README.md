@@ -6,6 +6,7 @@ You can clone the repository using SSH or through checking out with VCS
 # Jira Board
 
 IMPORTANT *** PLEASE MAKE A NEW BRANCH INSTEAD OF MAKING CHANGES DIRECTLY ON MAIN (ex. CIN-12)
+
 command in terminal to use to create a new branch for the ticket = " git checkout -b CIN-{ticket_num} "
 
 Using the Jira software we can manage aour work and organize it so we all are on the same page
