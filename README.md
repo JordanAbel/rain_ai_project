@@ -1,5 +1,5 @@
 # rain_ai_project
-You can clone the repository using SSH or through checking out with VCS
+You can clone the repository through checking out with VCS
 
 ~If you need help cloning the project just let me know.
 
