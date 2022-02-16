@@ -1,9 +1,5 @@
-from mock_data.mock_data import mock_input
-
-
 # This is the basic structure of how we can extract keywords from a serializable JSON response
-def extract_keywords():
-    data = mock_input["entry_1"]["data"]
+def extract_keywords(data):
     data_dict = {}
     keywords = ["knee", "shoulder", "elbow", "wrist", "hand", "hip", "foot", "ankle", "multiple myeloma", "myopathy",
                 "tumour + subtractions, vit e marker", "mortons neuroma", "hand", "fingers", "achilles tendon",
@@ -13,11 +9,13 @@ def extract_keywords():
     data_words = list(data.split(" "))
 
     for data_word in data_words:
-        count = 0
         data_word.lower()
 
         if data_word in keywords:
-            count += 1
-            data_dict[data_word] = count
+
+            if data_dict.get(data_word):
+                data_dict[data_word] += 1
+            else:
+                data_dict[data_word] = 1
 
     return data_dict
