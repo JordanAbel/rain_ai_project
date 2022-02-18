@@ -9,6 +9,6 @@ mock_input = {
     },
     "entry_3": {
         "data": "previous meniscectomy bilateral with recurrent buckling, bilateral of lateral bilateral line. "
-                "R/o shoulder tear"
+                "R/o Shoulder tear"
     }
 }

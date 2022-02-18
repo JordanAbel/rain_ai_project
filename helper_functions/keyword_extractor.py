@@ -6,10 +6,9 @@ def extract_keywords(data):
                 "humerus", "forearm", "femur", "tib/fib", "sternum", "tumour with gad and subtractions", "sacrum",
                 "l-spine", "l-spine and Sacrum", "bilateral", "review with radiologist", "scapula", "thumb", "toes"]
 
-    data_words = list(data.split(" "))
+    data_words = list(data.lower().split(" "))
 
     for data_word in data_words:
-        data_word.lower()
 
         if data_word in keywords:
 
