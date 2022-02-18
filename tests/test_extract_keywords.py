@@ -1,7 +1,7 @@
 import unittest
 
 from helper_functions.keyword_extractor import extract_keywords
-from mock_data.mock_data import mock_input
+from mock_data.mock_entries import mock_input
 
 
 class TestExtractKeywords(unittest.TestCase):
